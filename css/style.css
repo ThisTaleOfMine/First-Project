@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+hr {
+  border: dotted #EAF6F6 5px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+h1 {
+  margin: 25px auto 0 auto;
+  font-family: 'Clicker Script', cursive;
+  font-size: 5.5rem;
+  color: #E1EDF9;
+}
+
+h2 {
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+  }
+
+h3 {
+  font-family: 'Baloo Bhai', cursive;
+  color: #66BFBF;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  color: #40514E;
+  line-height: 1.4;
+}
+
+a {
+  color: #66BFBF;
+  margin: 30px 10px 20px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #99d8d0;
+  padding-top: 20px;
+  position: relative;
+}
+
+.middle-container {
+  background-color: #b5efe8;
+  padding: 20px 0 20px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF ;
+  padding: 20px 0 20px 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  top: 195px;
+  opacity: 1.5;
+}
+
+.middle-cloud {
+  position: absolute;
+  right: 150px;
+  top: 250px;
+  opacity: 1.5;
+}
+
+.top-cloud {
+  position:absolute;
+  right: 250px;
+  top: 50px;
+  opacity: 1.5;
+}
+.profile {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.mountain {
+  margin: 0 auto 0 auto;
+}
+
+.profile-img {
+  width: 25%;
+}
+.skills-img1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.skills-img2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+}
+.copyright{
+  color: #EAF6F6;
+  font-family: 'Baloo Bhai', cursive;
+  margin: 15px 0 15px 0;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  color: #40514E;
+}
+
+.btn {
+	box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:35px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	padding:17px 32px;
+	text-decoration:none;
+  margin-top: 30px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
